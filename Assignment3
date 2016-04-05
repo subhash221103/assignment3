@@ -1,0 +1,10 @@
+class Assignment3{
+  public static void main(String args[]){
+    float f=11.1f;
+    double d=12.1d;
+	int c=(int)f; //truncate data after decimal point
+	int e=(int)d; //truncate data after decimal point
+	System.out.println(c);
+	System.out.println(e);
+  }
+}
